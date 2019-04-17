@@ -1,0 +1,29 @@
+p {
+    color:darkgrey;
+    }
+
+
+h1 {
+ color:mediumturquoise;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: georgia, sans-serif;
+    }
+
+
+.box {
+    background-color: white;
+    padding: 50px;
+    margin: 20px 0;
+    }
+
+
+
+.collapse {
+    display: block !important
+}
+
+.thumbnail {
+    border: none;
+}
+

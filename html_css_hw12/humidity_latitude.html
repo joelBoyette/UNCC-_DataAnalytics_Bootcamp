@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lattitude</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="\styles\style.css">
+</head>
+
+    
+<body style="background-color:lightgray;">
+  
+<!--  BEGIN NAVIGATION  -->
+    
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style = "background-color: mediumturquoise; color: white;font-weight: 700; margin-left: 40px ">Latitude</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                        aria-expanded="false">Plot <span class="caret"> </span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="max_temp_latitude.html">Max Temperature</a></li>
+                            <li><a href="humidity_latitude.html">Humidity</a></li>
+                            <li><a href="cloudiness_latitude.html">Cloudiness</a></li>
+                            <li><a href="wind_latitude.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div> 
+    </nav><!--  END NAVIGATION  -->
+
+<!--  BEGIN BODY  -->
+    
+    <div class="container">
+    
+        <div class = "row" style = "margin-top: 40px;">
+            
+            <div class="col-md-7 col-sm-12">
+                
+                <div class="box">
+                    <h1>Humidity vs. Latitude</h1>
+                    <hr>
+                   
+
+                        <img src="\images\humidity_latitude.png" alt="Humidity vs. Latitude" style="width: 100%;">
+
+                    
+
+                <div >
+                <p>This is a comparison of city location by latitude and the humidity. Humidity was highest at the equator.  But there was more humidity to the west of the equator than the east.
+                </p>
+
+                </div>
+            </div>
+                
+            </div><!--  COLUMN 1 END  --> 
+       
+            <div class="col-md-5 col-sm-12">
+                <div class="box">
+                <h1>Visualizations</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="max_temp_latitude.html" class="thumbnail">
+                            <img src="\images\max_temp_latitude.png" alt="Max Temp vs. Latitude">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="cloudiness_latitude.html" class="thumbnail">
+                            <img src="\images\cloudiness_latitude.png"
+                                 alt="Cloudiness vs. Latitude">
+                        </a>
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="humidity_latitude.html" class="thumbnail" style="border: solid 2px; color: mediumturquoise;">
+                            <img src="\images\humidity_latitude.png" alt="Humidity vs. Latitude">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="wind_latitude.html" class="thumbnail">
+                            <img src="\images\wind_latitude.png"  alt="Wind vs. Latitude">
+                        </a>
+                    </div>
+                </div>
+                   
+               
+                </div>
+            </div><!--  COLUMN 2 END -->
+
+        </div> <!--  ROW END  -->
+        
+        
+    </div><!--  CONTAINER END  -->
+
+    
+    
+    </body>
+
+</html>

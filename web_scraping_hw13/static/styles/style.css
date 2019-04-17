@@ -1,0 +1,29 @@
+.jumbotron {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 100px 0;
+}
+
+
+button {
+	background: blue;
+	color: white;
+}
+
+.featured-img {
+	width: 100%;
+}
+
+.headlines {
+	margin-bottom: 50px;
+}
+
+.main-button {
+	margin-top: 20px;
+}
+
+.weather {
+	margin-bottom: 50px;
+}
+
+
