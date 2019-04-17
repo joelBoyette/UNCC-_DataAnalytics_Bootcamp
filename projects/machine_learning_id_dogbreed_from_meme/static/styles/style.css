@@ -1,0 +1,22 @@
+.page {
+    text-align: center;
+}
+
+.header {
+    
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+#filter-btn {
+    text-align: center;
+    margin: 30px auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 10px;
+}
